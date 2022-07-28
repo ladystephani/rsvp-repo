@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.trilogyed.rsvp.dao.RsvpDaoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 3.592 s <<< FAILURE! - in com.trilogyed.rsvp.dao.RsvpDaoTest
+getAllRsvps(com.trilogyed.rsvp.dao.RsvpDaoTest)  Time elapsed: 1.441 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'172.18.0.1' (using password: YES)
+	at com.trilogyed.rsvp.dao.RsvpDaoTest.setUp(RsvpDaoTest.java:26)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'172.18.0.1' (using password: YES)
+	at com.trilogyed.rsvp.dao.RsvpDaoTest.setUp(RsvpDaoTest.java:26)
+
+updateRsvp(com.trilogyed.rsvp.dao.RsvpDaoTest)  Time elapsed: 1.104 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'172.18.0.1' (using password: YES)
+	at com.trilogyed.rsvp.dao.RsvpDaoTest.setUp(RsvpDaoTest.java:26)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'172.18.0.1' (using password: YES)
+	at com.trilogyed.rsvp.dao.RsvpDaoTest.setUp(RsvpDaoTest.java:26)
+
+addGetDeleteRsvp(com.trilogyed.rsvp.dao.RsvpDaoTest)  Time elapsed: 1.037 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'172.18.0.1' (using password: YES)
+	at com.trilogyed.rsvp.dao.RsvpDaoTest.setUp(RsvpDaoTest.java:26)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'172.18.0.1' (using password: YES)
+	at com.trilogyed.rsvp.dao.RsvpDaoTest.setUp(RsvpDaoTest.java:26)
+
